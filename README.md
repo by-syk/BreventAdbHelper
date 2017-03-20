@@ -5,7 +5,7 @@
 
 ### 假定
 
-+ 已在电脑上配置`Java`、`adb`
++ 已在Windows电脑上配置`Java`、`adb`
 
 + 设备已启用**USB调试**
 
@@ -41,7 +41,7 @@
 
 1. 设备开机
 
-2. 双击执行`[BreventAdbHelper.bat](out/)`
+2. 双击执行[`BreventAdbHelper.bat`](out/)
   
   ![Command](art/breventadbhelper.png)
 
