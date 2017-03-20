@@ -13,7 +13,7 @@
   
   > `v0.8.7`已通过测试
 
-+ 设备已安装「[ADB Clipboard GetSet](out/AdbClipboardGetSet.apk)」
++ 设备已安装「[ADB Clipboard GetSet](out/)」
   
   > 用于支持通过adb命令获取设备剪切板内容的APP
 
@@ -41,7 +41,7 @@
 
 1. 设备开机
 
-2. 双击执行`BreventAdbHelper.bat`
+2. 双击执行`[BreventAdbHelper.bat](out/)`
   
   ![Command](art/breventadbhelper.png)
 
