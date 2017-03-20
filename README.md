@@ -1,6 +1,6 @@
 # BreventAdbHelper
 
-这是针对**未ROOT**设备上使用「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」`v0.8.7`的辅助工具——**一键启动黑域服务**。
+这是针对**未ROOT**设备上使用「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」的辅助工具，**一键启动黑域服务**。
 
 
 ### 假定
@@ -10,8 +10,11 @@
 + 设备已启用##USB调试##
 
 + 设备已安装「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」
+  
+  `v0.8.7`已通过测试
 
 + 设备已安装「[ADB Clipboard GetSet](out/AdbClipboardGetSet.apk)」
+  
   用于支持通过adb命令获取设备剪切板内容的APP
 
 
@@ -20,12 +23,15 @@
 1. 设备开机
 
 2. 启动「黑域」
+  
   ![Brevent](art/brevent_0.png)
 
 3. 连接电脑，对照敲入adb命令并执行
+  
   ![Command](art/manual.png)
 
 成功后「黑域」截图：
+
 ![Brevent](art/brevent_1.png)
 
 
@@ -35,7 +41,8 @@
 
 1. 设备开机
 
-2. 双击`BreventAdbHelper.bat`
+2. 双击执行`BreventAdbHelper.bat`
+  
   ![Command](art/breventadbhelper.png)
 
 搞定。
