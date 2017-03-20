@@ -26,7 +26,7 @@
   
   ![Brevent](art/brevent_0.png)
 
-3. 连接电脑，对照敲入adb命令并执行
+3. 连接电脑，对照敲入adb命令并执行（好烦）
   
   ![Command](art/manual.png)
 
