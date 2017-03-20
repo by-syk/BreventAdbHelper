@@ -1,6 +1,6 @@
 # BreventAdbHelper
 
-这是针对##未ROOT##设备上使用「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」`v0.8.7`的辅助工具——###一键启动黑域服务###。
+这是针对**未ROOT**设备上使用「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」`v0.8.7`的辅助工具——**一键启动黑域服务**。
 
 
 ### 假定
@@ -20,13 +20,13 @@
 1. 设备开机
 
 2. 启动「黑域」
-  ![Brevent](art/brevent0.png)
+  ![Brevent](art/brevent_0.png)
 
 3. 连接电脑，对照敲入adb命令并执行
   ![Command](art/manual.png)
 
 成功后「黑域」截图：
-![Brevent](art/brevent1.png)
+![Brevent](art/brevent_1.png)
 
 
 ### 一键过程
