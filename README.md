@@ -7,15 +7,15 @@
 
 + 已在电脑上配置`Java`、`adb`
 
-+ 设备已启用##USB调试##
++ 设备已启用**USB调试**
 
 + 设备已安装「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」
   
-  `v0.8.7`已通过测试
+  > `v0.8.7`已通过测试
 
 + 设备已安装「[ADB Clipboard GetSet](out/AdbClipboardGetSet.apk)」
   
-  用于支持通过adb命令获取设备剪切板内容的APP
+  > 用于支持通过adb命令获取设备剪切板内容的APP
 
 
 ### 一般过程
