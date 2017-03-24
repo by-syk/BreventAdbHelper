@@ -5,13 +5,11 @@
 
 ### 假定
 
-+ 已在Windows电脑上配置`Java`、`adb`
++ 已在Windows电脑上配置`Java`、`adb`环境变量
 
 + 设备已启用**USB调试**
 
-+ 设备已安装「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」
-  
-  > `v0.8.7`已通过测试
++ 设备已安装「[黑域](http://www.coolapk.com/apk/me.piebridge.brevent)」`v0.8.7`
 
 + 设备已安装「[ADB Clipboard GetSet](out/)」
   
@@ -46,6 +44,17 @@
   ![Command](art/breventadbhelper.png)
 
 搞定。
+
+
+### 一键背后的步骤
+
+1. 检查设备是否处于调试模式并通过USB连接电脑
+
+2. 检查设备是否已安装「ADB Clipboard GetSet」
+
+3. 启动设备上的「黑域」
+
+4. 从设备获取黑域复制到剪切板的ADB命令并执行
 
 
 ### License
