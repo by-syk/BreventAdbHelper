@@ -29,7 +29,11 @@ public class BreventAdbHelper {
         final String CMD_CHECK_DEVICE = "adb devices";
         System.out.println("> executing:\n" + CMD_CHECK_DEVICE);
         String result = execAdbCmd(CMD_CHECK_DEVICE);
-        if (result.trim().split("\n").length != 2) {
+        int deviceNum = result.trim().split("\n").length - 1;
+        if (deviceNum == 0) {
+            System.out.println("> result:\nno device/emulator");
+            return;
+        } else if (deviceNum > 1) {
             System.out.println("> result:\nmore than one device/emulator");
             return;
         }
